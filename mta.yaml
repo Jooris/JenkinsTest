@@ -1,0 +1,15 @@
+ID: JenkinsTest
+version: '1.00'
+
+parameters:
+  hcp-deployer-version: "1.0.0"
+
+modules:
+  - name: "<Name of your Fiori application>"
+    type: html5
+    path: .
+    parameters:
+       version: <version number of your application>-${timestamp}
+    build-parameters:
+      builder: grunt
+      build-result: dist
