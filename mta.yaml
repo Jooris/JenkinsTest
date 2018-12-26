@@ -5,11 +5,11 @@ parameters:
   hcp-deployer-version: "1.0.0"
 
 modules:
-  - name: "<Name of your Fiori application>"
+  - name: "JenkinsTest"
     type: html5
     path: .
     parameters:
-       version: <version number of your application>-${timestamp}
+       version: 1-${timestamp}
     build-parameters:
       builder: grunt
       build-result: dist
