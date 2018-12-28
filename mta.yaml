@@ -1,4 +1,4 @@
-_schema-version: "2.0.0"
+_schema-version: "2.1"
 ID: "JenkinsTest"
 version: "0.0.1"
 
@@ -11,6 +11,7 @@ modules:
     path: .
     parameters:
        version: 0.0.1-${timestamp}
+       name: 'jenkinstest'
     build-parameters:
       builder: grunt
       build-result: dist
