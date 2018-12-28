@@ -6,9 +6,9 @@ parameters:
   hcp-deployer-version: "1.2.0"
 
 modules:
-  - name: JenkinsTest
+  - name: jenkinstest
     type: com.sap.hcp.html5
-    path: .
+    path: ./webapp
     parameters:
        version: 0.0.1-${timestamp}
     build-parameters:
