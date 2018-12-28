@@ -8,6 +8,7 @@ parameters:
 modules:
   - name: jenkinstest
     type: com.sap.hcp.html5
+    name: jenkinstest
     path: .
     parameters:
        version: 0.0.1-${timestamp}
